@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - 1969 Ford Mustang</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Title and navigation tabs -->
+        <h1>1969 Ford Mustang</h1>
+        <div class="tabs">
+            <!-- Navigation links -->
+            <a href="index.html" class="tablinks">Overview</a>
+            <a href="details.html" class="tablinks">Details</a>
+            <a href="features.html" class="tablinks">Features</a>
+            <a href="support.html" class="tablinks">Support</a>
+            <a href="testimonials.html" class="tablinks">Testimonials</a>
+            <a href="gallery.html" class="tablinks">Gallery</a>
+        </div>
+    </header>
+
+    <!-- Background image -->
+    <img src="tumblr_oismamuEyH1thdnd3o4_500.webp" alt="background" class="back">
+
+    <!-- Main content holder -->
+    <div id="holder">
+        <!-- Title for the support/contact section -->
+        <h1>Contact Us</h1>
+        <!-- Contact form -->
+        <div class="contact-form">
+            <!-- Form to submit contact details -->
+            <form action="process_form.php" method="post">
+                <!-- Name input field -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Email input field -->
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <!-- Message textarea -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <!-- Submit button -->
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

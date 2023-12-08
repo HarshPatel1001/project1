@@ -1,0 +1,140 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background image styles */
+.back {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+/* Container styles */
+#container {
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 10px auto;
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Holder styles */
+#holder {
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 10px auto;
+    position: relative;
+    font-weight: bold;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tabs navigation styles */
+.tabs {
+    background-color: #f8f9fa;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Individual tab link styles */
+.tablinks {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+/* Hidden tab content */
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+/* Image styles */
+.image,
+.photo {
+    max-width: 500px;
+    margin: 30px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 11px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Hover effect on images */
+.image:hover,
+.photo:hover {
+    transform: scale(1.1);
+}
+
+/* Car image styles */
+.car {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
+
+/* Contact form styles */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Styles for form elements */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect on submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
